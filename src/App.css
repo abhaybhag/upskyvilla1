@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+:root{
+  --primary-font-primary:"DM Serif Display", "Poppins";
+  --secondary-font-primary:"Poppins", "DM Serif Display";
+  --button-color-primary:#bda588;
+  --secondary-color-text:#959da3;
+  --accent-color:#173e62;
+}
+
+html,body{
+  overflow-x: hidden;
+}
+
+
+.lefticonsList .iconslistitem:hover img {
+    transform: rotate(360deg);
+}
+
+
+
+.lefticonsList .iconslistitem:hover .innerDiv {
+    scale: 1;
+}
+
+
+@media(min-width:200px) and (max-width:992px){
+  .Aboutuptown-left{
+    position: relative;
+    flex-wrap: wrap;
+    flex-basis: 100%;
+
+  }
+  .Aboutuptown-left figure{
+    width:100%
+  }
+  .Aboutuptown-right{
+    flex-basis: 100%;
+    
+  }
+  .AboutuptownMid{
+    padding-left:0px
+  }
+  .AboutuptownMid{
+    max-width: 1000px;
+  }
+  
+}
+
+@keyframes wiggle {
+  0%{
+    width:0px;
+    background-color: #17a2b8;
+    height:20px;
+  }
+  
+  100%{
+    width:80%;
+    background-color: #17a2b8;
+    height:20px;
+
+  }
+  
+}
+
+.formContainer{
+background: #ffff;
+box-shadow:  20px 20px 60px #bebebe,
+             -20px -20px 60px #ffffff;
+}
+
+.MobileVersion ul li{
+  border-bottom: 1px solid #c1c1c1;
+  line-height:2.5em
+
+}
