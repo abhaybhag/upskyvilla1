@@ -66,7 +66,7 @@ let Header = ({ hamburgerMenuKeys }) => {
                                 <li><a href="#" className='text-white text-[18px] font-[500] [font-family:var(--primary-font-primary)]'>Contact us</a></li>
                             </ul>
                         </div>
-                        <div className={`MobileVersion duration-75  flex  flex-col bg-white lg:hidden w-[60%] h-[70vh] fixed  top-0 left-[${hamburgerMenu == 1 ? "0" : "-1000px"}]`}>
+                        <div className={`MobileVersion duration-75  flex  flex-col bg-white lg:hidden w-[60%] h-[70vh] fixed  top-0 ${hamburgerMenu === 1 ? "left-0" : "left-[-1000px]"}]`}>
 
                             <ul className='flex gap-4 flex-col p-5'>
                                 <li><a href="#" className='text-black text-[18px] font-[500] [font-family:var(--primary-font-primary)] '>Home</a></li>
