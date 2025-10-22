@@ -27,7 +27,6 @@ import { RxCross1 } from "react-icons/rx";
 
 let Header = ({ hamburgerMenuKeys }) => {
     let { hamburgerMenu, SethamburgerMenu } = hamburgerMenuKeys
-    console.log(hamburgerMenu)
 
     var settings = {
         dots: false,
