@@ -167,18 +167,18 @@ let Home =()=>{
 
       <section data-aos="fade-right" data-aos-delay="50"
         className="ourOffer bg-white py-[50px] lg:px-0 px-4">
-        <div className="max-w-[1320px] mx-[auto] ourOfferMid">
+        <div className="max-w-[1320px] mx-auto ourOfferMid">
           <div className="headingBlock flex justify-between mb-6">
             <h1 className='text-[28px] [font-family:var(--primary-font-primary)]'>Our Offering
             </h1>
             <button className='bg-[transparent] px-[30px] py-[15px] border-b border-[black] cursor-pointer'>LUXURY 2/3/4 BHK FLATS IN ZIRAKPUR</button>
           </div>
 
-          <div className="grid lg:grid-cols-3 gap-y-10 grid-cols-2">
+          <div className="grid lg:grid-cols-3 gap-y-10 grid-cols-1 md:grid-cols-2">
             <div className="griditems relative">
 
 
-              <div class="max-w-sm bg-white border border-gray-200 shadow-lg">
+              <div class=" bg-white border border-gray-200 shadow-lg">
                 <a href="#">
                   <img src="https://uptownskylla.in/wp-content/uploads/2019/10/05-Contener-No-3rd-06-700x479.jpg" alt="" />
                 </a>
@@ -207,14 +207,14 @@ let Home =()=>{
                   </div>
 
                 </div>
-                <span className='absolute top-0 right-[56px]'><img src="https://uptownskylla.in/wp-content/uploads/2024/03/sold-out-png-14.png" alt="" /></span>
+                <span className='absolute top-0 right-[0px]'><img src="https://uptownskylla.in/wp-content/uploads/2024/03/sold-out-png-14.png" alt="" /></span>
               </div>
 
             </div>
             <div className="griditems">
 
 
-              <div class="max-w-sm bg-white border border-gray-200 shadow-lg">
+              <div class=" bg-white border border-gray-200 shadow-lg">
                 <a href="#">
                   <img src="https://uptownskylla.in/wp-content/uploads/2019/10/05-Contener-No-3rd-08-700x479.jpg" alt="" />
                 </a>
@@ -249,7 +249,7 @@ let Home =()=>{
             <div className="griditems">
 
 
-              <div class="max-w-sm bg-white border border-gray-200 shadow-lg">
+              <div class=" bg-white border border-gray-200 shadow-lg">
                 <a href="#">
                   <img src="https://uptownskylla.in/wp-content/uploads/2019/10/05-Contener-No-3rd-10-700x479.jpg" alt="" />
                 </a>
@@ -284,7 +284,7 @@ let Home =()=>{
             <div className="griditems relative">
 
 
-              <div class="max-w-sm bg-white border border-gray-200 shadow-lg ">
+              <div class=" bg-white border border-gray-200 shadow-lg ">
                 <a href="#">
                   <img src="https://uptownskylla.in/wp-content/uploads/2019/10/05-Contener-No-3rd-05-700x479.jpg" alt="" />
                 </a>
@@ -312,7 +312,7 @@ let Home =()=>{
                     </span></li>
                   </div>
 
-                  <span className='absolute top-0 right-[56px]'><img src="https://uptownskylla.in/wp-content/uploads/2024/03/sold-out-png-14.png" alt="" /></span>
+                  <span className='absolute top-0 right-[0px]'><img src="https://uptownskylla.in/wp-content/uploads/2024/03/sold-out-png-14.png" alt="" /></span>
 
                 </div>
               </div>
@@ -321,7 +321,7 @@ let Home =()=>{
             <div className="griditems">
 
 
-              <div class="max-w-sm bg-white border border-gray-200 shadow-lg">
+              <div class=" bg-white border border-gray-200 shadow-lg">
                 <a href="#">
                   <img src="https://uptownskylla.in/wp-content/uploads/2019/10/05-Contener-No-3rd-05-700x479.jpg" alt="" />
                 </a>
@@ -356,7 +356,7 @@ let Home =()=>{
             <div className="griditems">
 
 
-              <div class="max-w-sm bg-white border border-gray-200 shadow-lg ">
+              <div class=" bg-white border border-gray-200 shadow-lg ">
                 <a href="#">
                   <img src="https://uptownskylla.in/wp-content/uploads/2019/10/05-Contener-No-3rd-08-768x526.jpg" alt="" />
                 </a>
