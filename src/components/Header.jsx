@@ -27,8 +27,11 @@ import { RxCross1 } from "react-icons/rx";
 
 let Header = ({ hamburgerMenuKeys,inquryformKeys,ModelsKey }) => {
     let { hamburgerMenu, SethamburgerMenu } = hamburgerMenuKeys
+<<<<<<< HEAD
     let {InquiryForm,SetInqquiryForm}=inquryformKeys
     let {ModelForm,SetModelForm}=ModelsKey
+=======
+>>>>>>> 3744edd77a191550bcb0a5ca8bf35b697b32df53
 
     var settings = {
         dots: false,
