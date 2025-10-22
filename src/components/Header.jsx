@@ -25,9 +25,10 @@ import { RxCross1 } from "react-icons/rx";
 
 
 
-let Header = ({ hamburgerMenuKeys }) => {
+let Header = ({ hamburgerMenuKeys,inquryformKeys,ModelsKey }) => {
     let { hamburgerMenu, SethamburgerMenu } = hamburgerMenuKeys
-    console.log(hamburgerMenu)
+    let {InquiryForm,SetInqquiryForm}=inquryformKeys
+    let {ModelForm,SetModelForm}=ModelsKey
 
     var settings = {
         dots: false,
@@ -141,11 +142,11 @@ let Header = ({ hamburgerMenuKeys }) => {
                                     Every Angle</h1>
 
                                 <div className="buttonGroup flex gap-4">
-                                    <button className='bg-[var(--button-color-primary)] px-[40px!important] py-[10px!important] text-white lg:text-[16px] text-[10px]'>
+                                    <button className='bg-[var(--button-color-primary)] px-[40px!important] py-[10px!important] text-white lg:text-[16px] text-[10px] cursor-pointer' onClick={()=>SetInqquiryForm(1)}>
                                         Enquire Now
                                     </button>
-                                    <button className='bg-[var(--button-color-primary)] px-[40px!important] py-[10px!important] text-white lg:text-[16px] text-[10px]'>
-                                        Enquire Now
+                                    <button className='bg-[var(--button-color-primary)] px-[40px!important] py-[10px!important] text-white lg:text-[16px] text-[10px] cursor-pointer' onClick={()=>SetModelForm(1)}>
+                                        Download Brochure
                                     </button>
 
                                 </div>
@@ -164,11 +165,11 @@ let Header = ({ hamburgerMenuKeys }) => {
                                     Every Angle</h1>
 
                                 <div className="buttonGroup flex gap-4">
-                                    <button className='bg-[var(--button-color-primary)] px-[40px!important] py-[10px!important] text-white lg:text-[16px] text-[10px]'>
+                                    <button className='bg-[var(--button-color-primary)] px-[40px!important] py-[10px!important] text-white lg:text-[16px] text-[10px]' onClick={()=>SetInqquiryForm(1)}>
                                         Enquire Now
                                     </button>
-                                    <button className='bg-[var(--button-color-primary)] px-[40px!important] py-[10px!important] text-white lg:text-[16px] text-[10px]'>
-                                        Enquire Now
+                                    <button className='bg-[var(--button-color-primary)] px-[40px!important] py-[10px!important] text-white lg:text-[16px] text-[10px]' onClick={()=>SetModelForm(1)}>
+                                    Download Brochure
                                     </button>
 
                                 </div>

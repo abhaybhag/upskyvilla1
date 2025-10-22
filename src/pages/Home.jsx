@@ -19,6 +19,7 @@ import { MdEmail } from "react-icons/md";
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 import Model from '../components/Model';
+import InquryModel from '../components/InquryModel';
 
 
 
@@ -33,6 +34,10 @@ let Home =()=>{
 
   let hamburgerMenuValues={hamburgerMenu,SethamburgerMenu}
 
+  let [InquiryForm,SetInqquiryForm]=useState(0)
+  let inquryformvalues={InquiryForm,SetInqquiryForm}
+  
+
 
  
 
@@ -41,9 +46,11 @@ let Home =()=>{
 
   return (
     <>
-      <Header hamburgerMenuKeys={hamburgerMenuValues} />
+      <Header hamburgerMenuKeys={hamburgerMenuValues} inquryformKeys={inquryformvalues} ModelsKey={ModelValues}/>
 
       <Model ModelsKey={ModelValues} />
+
+      <InquryModel inquryformKeys={inquryformvalues} />
 
       <section data-aos="fade-up" data-aos-delay="50"
         className="sectionAboutUs bg-white my-[150px] lg:px-[50px] px-4">
@@ -101,7 +108,7 @@ let Home =()=>{
               <span>UPTOWN SKYLLA Rera No: PBRERA-SAS79-PR0546
 
               </span>
-              <button className='bg-[#0077b9] px-[30px] py-[15px] max-w-[200px] text-white capitalize my-3'>enquiry Now</button>
+              <button className='bg-[#0077b9] px-[30px] py-[15px] max-w-[200px] text-white capitalize my-3 cursor-pointer' onClick={()=>SetInqquiryForm(1)}>enquiry Now</button>
             </div>
           </div>
 
